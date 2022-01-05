@@ -67,3 +67,4 @@ window.addEventListener("load", function () {
         highlightVegetarian('menuTable', this.checked);
     });
 });
+// base on inclass pratical @mikhail-cct
