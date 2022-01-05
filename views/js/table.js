@@ -53,3 +53,4 @@ $(document).ready(function ()
 {
 	draw_table();
 });
+// CODE FROM IN CLASS PRATICAL

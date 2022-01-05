@@ -31,7 +31,7 @@
                                 </td>
                             </tr>
                             <xsl:for-each select="entry">
-                                <tr>
+                                <tr id= "{position()}">
                                     
                                     <td align="center">
                                         <input name="item0" type="checkbox" />

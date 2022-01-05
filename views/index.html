@@ -19,8 +19,6 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
                         <li><a href="Home.html">Welcome</a></li>
                         <li><a href="About.html">About Us</a></li>
                           <li><a href="Prices.html">Prices</a></li>
@@ -34,22 +32,22 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1>Patisserie</h1>
-                <p class="lead">A complete project boilerplate built with Bootstrap</p>
-                <p>Bootstrap v5.1.3</p>
+                <h1>Menu</h1>
+                <p class="lead">Please place an order</p>
+                <p>Home made</p>
                 <h2>Welcome to Colonnel's Bakery</h2>
-      <p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button. Check the "Highlight Vegetarian Meals" box to highlight vegetarian dishes.</p>
-      <table id="menuTable" border="1" class="indent">
-         <thead>
-            <tr>
-               <th colspan="3">Colonnel Bakery</th>
-            </tr>
-            <tr>
-               <th>Select</th>
-               <th>Item</th>
-               <th>Price</th>
-            </tr>   
-         </thead>
+                  <p>Select your entrees from the menu below.</p>
+                      <table id="menuTable" border="1" class="indent">
+                         <thead>
+                            <tr>
+                              <th colspan="3">Colonnel Bakery</th>
+                            </tr>
+                            <tr>
+                            <th>Select</th>
+                             <th>Item</th>
+                                 <th>Price</th>
+                            </tr>   
+                          </thead>
          <tbody>
             <tr>
                <td colspan="3">ICE_CREAM</td>
@@ -121,9 +119,30 @@
       <form class="indent">
          <p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill">
                 Total: €
-                <input type="text" name="txtBillAmt"><input type="checkbox" name="cbOpts" value="isVeg" id="showVeg"><label for="showVeg">Highlight Vegetarian Meals</label></p>
+                <input type="text" name="txtBillAmt"/>
       </form>
             </div>
+        </div>
+        <div class="lulu">
+         <form enctype="application/json" action="/post/json" method="post">
+            <div class="form-group">
+                <select class="form-control" name="sec_n">
+                    <option value="0">ICE_CREAM</option>
+                    <option value="1">DESSERT</option>
+                    <option value="2">DONUTS</option>
+                    <option value="3">CONFECTIONERY</option>
+                    <option value="4">CUPCAKES</option>
+                </select>
+                <input class="form-control mt-3" type="text" name="item" placeholder="Item" required minlength="10" maxlength="50">minlength is 10 and maxlength is 50</input>
+               
+                <input class="form-control mt-3" type="int" name="price" placeholder="Price" required minlength="3.60" maxlength="10"></input>
+                <button type="submit" class="LULU">Submit</button>
+            </div>
+            <div class="luco">
+               <button id="delete" class="LUCO">Delete</button></div>
+               <p>To delete an entree, click the required row first</p>
+           </div>
+        </form>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

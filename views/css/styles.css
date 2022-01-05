@@ -2244,8 +2244,8 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
-  color: #212529;
-  background-color: #e9ecef;
+  color: white;
+  background-color:black;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -4035,6 +4035,8 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding: 10px 10px;
+  border-radius: 50px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11288,9 +11290,9 @@ textarea.form-control-lg {
 }
 body{
 
-	color: #023436;
+	color: black;
 
-background-image: url(https://th.bing.com/th/id/Re0cb762ad699eec212d29ceeccb1ca1e?rik=GeJZ7w3rlTyKZw&riu=http%3a%2f%2fwww.cakeygoodness.co.uk%2fwp-content%2fuploads%2f2020%2f09%2f65th-birthday-drip-cake-7.jpg&ehk=RKCPmjTbOJW%2fq16%2bFurxrG16FAdfywzOjUc2bwtEzWc%3d&risl=&pid=ImgRaw);
+background-image: url(https://thumbs.dreamstime.com/b/floral-element-design-14707038.jpg);
 background-size: cover;
 text-align: center;
 }
@@ -11313,7 +11315,8 @@ header{
    image-orientation: center;
 }
 .txt {
-  background-color: none;
+  color: black;
+  background-color: black;
   width: 300px;
   border: 15px ;
   padding: 50px;
@@ -11364,7 +11367,7 @@ table{
   box-sizing: content-box;
   border-left: 2px;
   border-left: 2px;
-  background-image: url(https://i.ytimg.com/vi/x0fSIr6gQsI/hqdefault.jpg);
+  background-image: url(https://i.pinimg.com/originals/f7/2f/63/f72f63748621ac0b8fecdaf8d892620f.jpg);
 
 }
 img{
@@ -11423,13 +11426,13 @@ footer{
 
 h1{
   font-family: georgia;
-	color: Brown;
+	color: grey;
 	text-align: center;
   text-shadow: 50px;
   font-style: oblique;
   box-sizing: content-box;
-  background-color: pink;
-  border-radius: 25px;
+  background-color: var(--bs-gray-300);
+  border-radius: 15px;
   height: 40px;
 }
 
@@ -11440,7 +11443,7 @@ nav ul{
 	padding:10px;
   	display: block;
   text-align: center;
-  background-color:white;
+  background-color:black;
   border-radius: 50px;
 
 }
@@ -11450,7 +11453,7 @@ nav li a{
 	text-align: center;
   text-decoration-line: none;
 	display: block;
-	color: #ff4d4d;
+	color: white;
 	padding: 10px 10px;
 }
 h4{
@@ -11479,11 +11482,29 @@ h4{
   width: 550px;
 
 }
-body{font-family:Arial,Helvetica,sans-serif;background-color:none;margin:5px;text-align:center;color: #023436}
+
+
+body{font-family:Arial,Helvetica,sans-serif;background-color:white;margin:5px;text-align:center;color:white}
 h2{font-size:140%;color:white;margin-top:auto;margin-bottom:auto;}
-p{font-size:80%;color:pink}
-table{background-color:#ffcce6;border-color:solid black;border-width:thin;border-collapse:collapse;width:75%}
-th{border-color:#000;font-size:120%;color:#0d3427}
-td{border-color:#000;font-size:100%;color:#523819;padding:5px}
+p{font-size:80%;color:black}
+table{background-color:var(--bs-gray-400);border-color:none;border-width:thin;border-collapse:collapse;text-align: center;
+ width: 75%; border-radius:25px;}
+th{border-color:black;font-size:120%;color:black}
+  td{border-color:burlywood;font-size:100%;color:black;padding:5px}
 img{float:left;margin-left:10px;margin-right:10px;border:0}
 .indent{margin-left:78px}
+
+.LULU{
+  background-color: black ;
+  width: 25%;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+.LUCO{
+  background-color: black;
+  color:white;
+  width: 50%;
+  text-align: center ;
+  border-radius: 15px;
+}

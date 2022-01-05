@@ -2,52 +2,60 @@
 <menu>
   <section name="ICE_CREAM">
     <entry>
-        <item>Vanilla</item>
-        <price>5.00</price>
+      <item>Vanilla</item>
+      <price>5.00</price>
     </entry>
     <entry>
-        <item>Pistachio</item>
-        <price>3.60</price>
+      <item>Pistachio</item>
+      <price>3.60</price>
+    </entry>
+    <entry>
+      <item>hjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</item>
+      <price>3.60</price>
+    </entry>
+    <entry>
+      <item>hjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</item>
+      <price>3.60</price>
     </entry>
   </section>
   <section name="DESSERT">
-     <entry>
-        <item>Cherry</item>
-        <price>6.50</price>
+    <entry>
+      <item>Cherry</item>
+      <price>6.50</price>
     </entry>
     <entry>
-        <item>Brownie</item>
-        <price>3.60</price>
+      <item>Brownie</item>
+      <price>3.60</price>
     </entry>
   </section>
   <section name="DONUTS">
-    <entry >
-        <item>chocolate</item>
-        <price>3.60</price>
+    <entry>
+      <item>chocolate</item>
+      <price>3.60</price>
     </entry>
     <entry>
-        <item>Vanilla</item>
-        <price>5.50</price>
+      <item>Vanilla</item>
+      <price>5.50</price>
     </entry>
   </section>
   <section name="CONFECTIONERY">
-     <entry>
-        <item>Cookies</item>
-        <price>3.60</price>
+    <entry>
+      <item>Cookies</item>
+      <price>3.60</price>
     </entry>
     <entry>
-        <item>Candies</item>
-        <price>7.00</price>
+      <item>Candies</item>
+      <price>7.00</price>
     </entry>
   </section>
   <section name="CUPCAKES">
-     <entry>
-        <item>chocolate</item>
-        <price>3.60</price>
+    <entry>
+      <item>chocolate</item>
+      <price>3.60</price>
     </entry>
     <entry>
-        <item>Berry</item>
-        <price>5.00</price>
+      <item>Berry</item>
+      <price>5.00</price>
     </entry>
   </section>
 </menu>
