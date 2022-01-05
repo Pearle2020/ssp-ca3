@@ -11286,3 +11286,204 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body{
+
+	color: #023436;
+
+background-image: url(https://th.bing.com/th/id/Re0cb762ad699eec212d29ceeccb1ca1e?rik=GeJZ7w3rlTyKZw&riu=http%3a%2f%2fwww.cakeygoodness.co.uk%2fwp-content%2fuploads%2f2020%2f09%2f65th-birthday-drip-cake-7.jpg&ehk=RKCPmjTbOJW%2fq16%2bFurxrG16FAdfywzOjUc2bwtEzWc%3d&risl=&pid=ImgRaw);
+background-size: cover;
+text-align: center;
+}
+header{
+
+  color: white;
+  font-family: georgia;
+  margin-top: auto;
+  margin-bottom: auto;
+
+    background-size: cover;
+}
+.div{
+
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+   image-orientation: center;
+}
+.txt {
+  background-color: none;
+  width: 300px;
+  border: 15px ;
+  padding: 50px;
+  margin: 20px;
+image-orientation:right;
+}
+.photogauche {
+  background-color: none;
+  width: 300px;
+  border: 15px ;
+  padding: 50px;
+  margin: 20px;
+image-orientation:left;
+  border-radius: 50px;
+}
+.map{
+  box-sizing: content-box;
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  text-align: center;
+  display: Block;
+}
+table{
+  box-sizing: content-box;
+  background-color:#ffcce6;
+  border: solid white;
+  color: Brown;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location{
+  font-size: 100px;
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+  color: #e6ac00;
+  box-sizing: content-box;
+  border-left: 2px;
+  border-left: 2px;
+  background-image: url(https://i.ytimg.com/vi/x0fSIr6gQsI/hqdefault.jpg);
+
+}
+img{
+ width: auto;
+	padding: 5px;
+  border-right: 1px;
+  border-left: 1px;
+}
+caption{
+  color: brown;
+  font-style: oblique;
+  font-size-adjust: auto;
+  font-size: 25px;
+  text-align: center;
+  box-sizing: content-box;
+  background-color: white;
+  border-radius: 15px;
+}
+.story{
+  color: white;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+
+
+.wrapper {
+	background-color:#ffb3b3;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+  text-align: center;
+    border-radius: 20px;
+
+}
+.footer {
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  text-align: center;
+  display: Block;
+
+}
+#box{
+  display: flex;
+    border-radius: 50px;
+
+}
+footer{
+  background-color:  #ffb3b3;
+  border-radius: 50px;
+}
+
+h1{
+  font-family: georgia;
+	color: Brown;
+	text-align: center;
+  text-shadow: 50px;
+  font-style: oblique;
+  box-sizing: content-box;
+  background-color: pink;
+  border-radius: 25px;
+  height: 40px;
+}
+
+nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin:5px;
+	padding:10px;
+  	display: block;
+  text-align: center;
+  background-color:white;
+  border-radius: 50px;
+
+}
+
+nav li a{
+	float: left;
+	text-align: center;
+  text-decoration-line: none;
+	display: block;
+	color: #ff4d4d;
+	padding: 10px 10px;
+}
+h4{
+  font-family: georgia;
+	color: Brown;
+	text-align: center;
+  text-shadow: 50px;
+  font-style: oblique;
+  box-sizing: content-box;
+  background-color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 600px;
+}
+.answer{
+  font-family: georgia;
+	color: black;
+	text-align: center;
+  text-shadow: 50px;
+  font-style: oblique;
+  box-sizing: auto;
+  background-color: pink;
+
+  box-sizing: content-box;
+  height: 40px;
+  width: 550px;
+
+}
+body{font-family:Arial,Helvetica,sans-serif;background-color:none;margin:5px;text-align:center;color: #023436}
+h2{font-size:140%;color:white;margin-top:auto;margin-bottom:auto;}
+p{font-size:80%;color:pink}
+table{background-color:#ffcce6;border-color:solid black;border-width:thin;border-collapse:collapse;width:75%}
+th{border-color:#000;font-size:120%;color:#0d3427}
+td{border-color:#000;font-size:100%;color:#523819;padding:5px}
+img{float:left;margin-left:10px;margin-right:10px;border:0}
+.indent{margin-left:78px}

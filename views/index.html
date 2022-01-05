@@ -21,15 +21,12 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="Home.html">Welcome</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                          <li><a href="Prices.html">Prices</a></li>
+                            <li><a href="Store.html">our Store</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                              <li><a href="FAQ.html">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,6 +37,92 @@
                 <h1>Patisserie</h1>
                 <p class="lead">A complete project boilerplate built with Bootstrap</p>
                 <p>Bootstrap v5.1.3</p>
+                <h2>Welcome to Colonnel's Bakery</h2>
+      <p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button. Check the "Highlight Vegetarian Meals" box to highlight vegetarian dishes.</p>
+      <table id="menuTable" border="1" class="indent">
+         <thead>
+            <tr>
+               <th colspan="3">Colonnel Bakery</th>
+            </tr>
+            <tr>
+               <th>Select</th>
+               <th>Item</th>
+               <th>Price</th>
+            </tr>   
+         </thead>
+         <tbody>
+            <tr>
+               <td colspan="3">ICE_CREAM</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Vanilla</td>
+               <td align="right">5.00</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Pistachio</td>
+               <td align="right">3.60</td>
+            </tr>
+            <tr>
+               <td colspan="3">DESSERT</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Cherry</td>
+               <td align="right">6.50</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Brownie</td>
+               <td align="right">3.60</td>
+            </tr>
+            <tr>
+               <td colspan="3">DONUTS</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>chocolate</td>
+               <td align="right">3.60</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Vanilla</td>
+               <td align="right">5.50</td>
+            </tr>
+            <tr>
+               <td colspan="3">CONFECTIONERY</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Cookies</td>
+               <td align="right">3.60</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Candies</td>
+               <td align="right">7.00</td>
+            </tr>
+            <tr>
+               <td colspan="3">CUPCAKES</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>chocolate</td>
+               <td align="right">3.60</td>
+            </tr>
+            <tr>
+               <td align="center"><input name="item0" type="checkbox"></td>
+               <td>Berry</td>
+               <td align="right">5.00</td>
+            </tr>
+         </tbody>
+      </table>
+      <form class="indent">
+         <p><input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill">
+                Total: €
+                <input type="text" name="txtBillAmt"><input type="checkbox" name="cbOpts" value="isVeg" id="showVeg"><label for="showVeg">Highlight Vegetarian Meals</label></p>
+      </form>
             </div>
         </div>
         <!-- Bootstrap core JS-->
