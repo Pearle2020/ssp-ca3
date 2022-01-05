@@ -3,14 +3,14 @@
 <xsl:template match="/">
     <html>
         <head>
-            <title>Paddy's Cafe Menu</title>
+            <title>Colonnel bakery Menu</title>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <link rel="stylesheet" href="css/Colonnelbakery.css" />
             <script type="text/javascript" src="js/Colonnelbakery.js">x</script>
         </head>
             <body>
                 <h2>
-                    <img src="img/logo.gif" alt="Javaco Tea Logo" width="58" height="100" />Welcome to Colonnel Bakery</h2>
+                    <img src="img/logo.png" alt="Javaco Tea Logo" width="58" height="100" />Welcome to Colonnel Bakery</h2>
                 <p>Select your entrees from the menu below. To calculate the amount of the bill, click the Calculate Bill button.</p>
                 <table id="menuTable" border="1" class="indent">
                     <thead>
