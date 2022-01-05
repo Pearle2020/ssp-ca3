@@ -1,0 +1,8 @@
+body{font-family:Arial,Helvetica,sans-serif;background-color:none;margin:5px;text-align:center;color: #023436}
+				h2{font-size:140%;color:white;margin-top:auto;margin-bottom:auto;}
+				p{font-size:80%;color:pink}
+				table{background-color:#ffcce6;border-color:solid white;border-width:thin;border-collapse:collapse;width:75%}
+				th{border-color:#000;font-size:120%;color:#0d3427}
+				td{border-color:#000;font-size:100%;color:#523819;padding:5px}
+				img{float:left;margin-left:10px;margin-right:10px;border:0}
+				.indent{margin-left:78px}
